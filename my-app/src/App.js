@@ -4,14 +4,15 @@ import { setBooks } from "./actions/books";
 
 class App extends Component {
   render() {
-    const { books } = this.props.books;
-    const { setBooks } = this.props;
+    const  books  = this.props.books;
+    const  setBooks  = this.props;
     const newBooks = [
       {
         id: 0,
-        title: "dfghjk",
+        title: "dfghjk fgj",
       },
     ];
+
     return (
       <div>
         <h1>{books[0].title}</h1>
