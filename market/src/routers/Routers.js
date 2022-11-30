@@ -1,0 +1,22 @@
+import { Routes, Route } from 'react-router-dom'
+import Home from "../pages/Home";
+import Shop from "../pages/Shop";
+import Cart from "../pages/Cart";
+import BookDetails from "../pages/BookDetails";
+import Checkout from "../pages/Checkout";
+import Login from "../pages/Login";
+import Signup from "../pages/Signup";
+
+const Routers = () => {
+  return <Routes>
+    <Route path='home' element={<Home/>} />    
+    <Route path='shop' element={<Shop/>} />
+    <Route path='shop/:id' element={<BookDetails/>} />
+    <Route path='cart' element={<Cart/>} />
+    <Route path='сheckout' element={<Checkout/>} />
+    <Route path='login' element={<Login/>} />
+    <Route path='signup' element={<Signup/>} />
+  </Routes>
+};
+
+export default Routers;
