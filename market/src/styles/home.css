@@ -30,10 +30,31 @@
   margin-top: 40px;
 }
 
-.buy__btn a:hover{
-    color: #fff;
+.buy__btn a:hover {
+  color: #fff;
 }
 
 .hero__content {
-    padding-top: 45px;
+  padding-top: 45px;
+}
+
+.timer__count {
+  background: var(--primary-color);
+  height: 300px;
+}
+
+.timer__count img {
+  width: 70% !important;
+  height: 70% !important;
+  object-fit: contain;
+}
+
+.store__btn {
+  background: #fff;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.store__btn a:hover {
+  color: var(--primary-color);
 }
