@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "../pages/Home";
-import Shop from "../pages/Shop";
+import Bookshelf from "../pages/Bookshelf";
 import Cart from "../pages/Cart";
 import BookDetails from "../pages/BookDetails";
 import Login from "../pages/Login";
@@ -13,8 +13,8 @@ const Routers = () => {
     <Routes>
       <Route path="/" element={<Navigate to="/" />} />
       <Route path="home" element={<Home />} />
-      <Route path="shop" element={<Shop />} />
-      <Route path="shop/:id" element={<BookDetails />} />
+      <Route path="bookshelf" element={<Bookshelf />} />
+      <Route path="bookshelf/:id" element={<BookDetails />} />
       <Route path="cart" element={<Cart />} />
       <Route
         path="checkout"

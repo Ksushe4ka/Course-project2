@@ -11,26 +11,24 @@ import { Link } from "react-router-dom";
 
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.cartItems);
-  const totalAmount = useSelector((state) => state.cart.totalAmount);
 
   return (
     <Helmet title="Cart">
-      <CommonSection title="Shopping cart" />
+      <CommonSection title="Изобранное" />
       <section>
         <Container>
           <Row>
             <Col lg="9">
               {cartItems.length === 0 ? (
-                <h2 className="fs-4 text-center">No items added to the cart</h2>
+                <h2 className="fs-4 text-center">Добавленых книг нет</h2>
               ) : (
                 <table className="table bordered">
                   <thead>
                     <tr>
-                      <th>Image</th>
-                      <th>Title</th>
-                      <th>Price</th>
-                      <th>Qty</th>
-                      <th>Delete</th>
+                      <th>Картинка</th>
+                      <th>Название</th>
+                      <th>Описание</th>
+                      <th>Удалить </th>
                     </tr>
                   </thead>
 
@@ -44,19 +42,8 @@ const Cart = () => {
             </Col>
             <Col lg="3">
               <div>
-                <h6 className="d-flex align-items-center justify-content-between">
-                  subtotal
-                  <span className="fs-4 fw-bold">${totalAmount}</span>
-                </h6>
-              </div>
-              <p className="fs-6 mt-2">Some text</p>
-              <div>
-                <button className="buy__btn w-100 ">
-                  <Link to="/checkout">checkout</Link>
-                </button>
-
                 <button className="buy__btn w-100 mt-3">
-                  <Link to="/shop">continue shopping</Link>
+                  <Link to="/bookshelf">Книжная полка</Link>
                 </button>
               </div>
             </Col>
@@ -80,7 +67,6 @@ const Tr = ({ item }) => {
         <img src={item.imgUrl} alt="" />
       </td>
       <td>{item.productName}</td>
-      <td>${item.price}</td>
       <td>{item.quantity}px</td>
       <td>
         <motion.i

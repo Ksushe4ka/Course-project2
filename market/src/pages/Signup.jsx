@@ -60,11 +60,11 @@ const Signup = () => {
       );
 
       setLoading(false);
-      toast.success("Account created");
+      toast.success("Аккаунт создан");
       navigate("/login");
     } catch (error) {
       setLoading(false);
-      toast.error("something went wrong");
+      toast.error("Что-то пошло не так...");
     }
   };
 
@@ -75,17 +75,17 @@ const Signup = () => {
           <Row>
             {loading ? (
               <Col lg="12" className="text-center">
-                <h5 className="fw-bold">Loading........</h5>
+                <h5 className="fw-bold">Загрузка........</h5>
               </Col>
             ) : (
               <Col lg="6" className="m-auto text-center">
-                <h3 className="fw-bold mb-4">Signup</h3>
+                <h3 className="fw-bold mb-4">Регестрация</h3>
 
                 <Form className="auth__form" onSubmit={signup}>
                   <FormGroup className="form__group">
                     <input
                       type="text"
-                      placeholder="UserName"
+                      placeholder="Имя пользователя"
                       value={username}
                       onChange={(e) => setUsername(e.target.value)}
                     />
@@ -93,7 +93,7 @@ const Signup = () => {
                   <FormGroup className="form__group">
                     <input
                       type="email"
-                      placeholder="Enter your email"
+                      placeholder="Введите email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                     />
@@ -101,7 +101,7 @@ const Signup = () => {
                   <FormGroup className="form__group">
                     <input
                       type="password"
-                      placeholder="Enter your password"
+                      placeholder="Введите пароль"
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                     />
@@ -113,10 +113,10 @@ const Signup = () => {
                     />
                   </FormGroup>
                   <button type="submit" className="buy__btn auth__btn">
-                    create account
+                    Создать аккаунт
                   </button>
                   <p>
-                    Already have an account? <Link to="/login">Login</Link>
+                    Уже есть аккаунт? <Link to="/login">Вход</Link>
                   </p>
                 </Form>
               </Col>

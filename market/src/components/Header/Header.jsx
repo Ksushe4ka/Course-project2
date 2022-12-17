@@ -5,7 +5,7 @@ import "./header.css";
 
 import { motion } from "framer-motion";
 
-import logo from "../../assets/images/eco-logo.png";
+import logo from "../../assets/images/log.png";
 import userIcon from "../../assets/images/user-icon.png";
 
 import { Container, Row } from "reactstrap";
@@ -19,15 +19,15 @@ import { toast } from "react-toastify";
 const nav__links = [
   {
     path: "home",
-    display: "Home",
+    display: "Главная",
   },
   {
-    path: "shop",
-    display: "Shop",
+    path: "bookshelf",
+    display: "Книжная полка",
   },
   {
     path: "cart",
-    display: "Cart",
+    display: "Изобранное",
   },
 ];
 
@@ -88,7 +88,7 @@ const Header = () => {
             <div className="logo">
               <img src={logo} alt="logo" />
               <div>
-                <h1>marcket</h1>
+                <h1>Library</h1>
               </div>
             </div>
 
@@ -110,12 +110,8 @@ const Header = () => {
             </div>
 
             <div className="nav__icons">
-              <span className="fav__icon">
-                <i class="ri-heart-line"></i>
-                <span className="badge">1</span>
-              </span>
               <span className="cart__icon" onClick={navigateToCart}>
-                <i class="ri-shopping-bag-line"></i>
+              <i class="ri-heart-line"></i>
                 <span className="badge">{totalQuantity}</span>
               </span>
               <div className="profile">
