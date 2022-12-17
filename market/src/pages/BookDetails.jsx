@@ -45,7 +45,7 @@ const BookDetails = () => {
       rating,
     };
     console.log(reviewObj);
-    toast.success("Review submitted");
+    toast.success("Отзыв отправлен!");
   };
 
   const addToCart = () => {
@@ -57,7 +57,7 @@ const BookDetails = () => {
         price,
       })
     );
-    toast.success("Product added successfuly");
+    toast.success("Книга добавлена в изовранное");
   };
 
   useEffect(() => {
@@ -77,7 +77,7 @@ const BookDetails = () => {
             <Col lg="6">
               <div className="product__details">
                 <h2>{productName}</h2>
-                <div className="product__rating d-flex align-items-center gap-5 mb-3">
+                <div className="product__rating d-flex align-items-center gap-6 mb-3">
                   <div>
                     <span>
                       <i class="ri-star-s-fill"></i>
@@ -97,13 +97,12 @@ const BookDetails = () => {
                   </div>
 
                   <p>
-                    ( <span>{avgRating}</span> ratings)
+                    ( Рейтинг: <span>{avgRating}</span> )
                   </p>
                 </div>
 
-                <div className="d-flex align-items-center gap-5">
-                  <span className="product__price">${price}</span>
-                  <span>Category: {category}</span>
+                <div className=" d-flex align-items-center gap-5 ">
+                  <span>Жанр: {category}</span>
                 </div>
                 <p className="mt-3">{shortDesc}</p>
 
@@ -112,7 +111,7 @@ const BookDetails = () => {
                   className="buy__btn"
                   onClick={addToCart}
                 >
-                  Add to cart
+                 Добавить в изобранное
                 </motion.button>
               </div>
             </Col>
@@ -120,7 +119,7 @@ const BookDetails = () => {
         </Container>
       </section>
 
-      <section>
+      <section className="pt-0">
         <Container>
           <Row>
             <Col lg="12">
@@ -129,13 +128,13 @@ const BookDetails = () => {
                   className={`${tab === "desc" ? "active__tab" : " "}`}
                   onClick={() => setTab("desc")}
                 >
-                  Description
+                  Описание
                 </h6>
                 <h6
                   className={`${tab === "rev" ? "active__tab" : " "}`}
                   onClick={() => setTab("rev")}
                 >
-                  Reviews ({reviews.length})
+                  Отзывы ({reviews.length})
                 </h6>
               </div>
 
@@ -150,18 +149,18 @@ const BookDetails = () => {
                       {reviews?.map((item, index) => (
                         <li kew={index} className="mb-4">
                           <h6>Jon Doe</h6>
-                          <span>{item.rating} (rating)</span>
+                          <span>{item.rating} (Оценка)</span>
                           <p>{item.text}</p>
                         </li>
                       ))}
                     </ul>
                     <div className="review__form">
-                      <h4>Leave your experience</h4>
+                      <h4>Опиши свои впечатления!</h4>
                       <form action="" onSubmit={submitHandler}>
                         <div className="form__group ">
                           <input
                             type="text"
-                            placeholder="Enter Name"
+                            placeholder="Введите имя"
                             ref={reviewUser}
                             required
                           />
@@ -203,7 +202,7 @@ const BookDetails = () => {
                             ref={reviewMsg}
                             rows={4}
                             type="text"
-                            placeholder="Review Message..."
+                            placeholder="Сообщение..."
                             required
                           />
                         </div>
@@ -213,7 +212,7 @@ const BookDetails = () => {
                           type="submit"
                           className="buy__btn"
                         >
-                          Submit
+                          Отправить
                         </motion.button>
                       </form>
                     </div>
@@ -223,7 +222,7 @@ const BookDetails = () => {
             </Col>
 
             <Col lg="12" className="mt-5">
-              <h2 className="related__title">Some text</h2>
+              <h2 className="related__title">С этой книгой также читают: </h2>
             </Col>
 
             <ProductsList data={relatedProducts} />

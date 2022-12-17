@@ -31,21 +31,20 @@ import productImg25 from "../images/stancia.jpg";
 const products = [
   {
     id: "01",
-    productName: "Принцесса пепла ",
+    productName: "Принцесса Пепла ",
     imgUrl: productImg01,
     category: "фэнтези-романтика",
-    price: 193,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Мать Теодосии, Королеву пламени, убили, а ее страну завоевали. В один день девушка лишилась и семьи, и трона, и даже своего имени. Унизительный титул, который она вынуждена носить вместе с пепельной короной, пачкающей лицо и одежду. ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Мать Теодосии, Королеву пламени, убили, а ее страну завоевали. В один день девушка лишилась и семьи, и трона, и даже своего имени. Отныне ее все зовут Принцессой пепла. Унизительный титул, который она вынуждена носить вместе с пепельной короной, пачкающей лицо и одежду. Оказавшись во власти жестокого кайзера, Теодосия пытается выжить и не сойти с ума, ведь за малейшую провинность ее сурово наказывают. А если армия узурпатора терпит поражение, девушке достается еще больше плетей. Но когда кровожадный кайзер принуждает Теодосию совершить убийство близкого человека, девушка решает восстать. Она единственная надежда Астреи и ее богами забытого народа. Чтобы сражаться у Теодосии есть острый, как клинок, ум, и сила, что не всегда завоевывается на поле боя...",
     reviews: [
       {
-        rating: 4.7,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        rating: 4.2,
+        text: "Мне кажется, если бы у меня были полноценные свободные выходные, то я проглотила бы эту книгу на одном дыхании, настолько она напоминает обычный, полноценный young adult, с борьбой за власть и любовным треугольником. Да, сюжет предсказуем, но это не помешало мне получить удовольствие от чтения!",
       },
     ],
-    avgRating: 4.5,
+    avgRating: 4.2,
   },
 
   {
