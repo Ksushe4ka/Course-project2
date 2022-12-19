@@ -27,7 +27,7 @@ const nav__links = [
   },
   {
     path: "cart",
-    display: "Изобранное",
+    display: "Избранное",
   },
 ];
 
