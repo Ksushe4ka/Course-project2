@@ -12,35 +12,28 @@ const Footer = () => {
           <Col lg="4" className="mb-4" md="6">
             <div className="logo">
               <div>
-                <h1 className="text-white">marcket</h1>
+                <h1 className="text-white">Book Library</h1>
               </div>
             </div>
             <p className="footer__text mt-4">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum,
-              aut. Rem incidunt iure nisi nihil a at dolore doloremque
-              perspiciatis, neque voluptatum harum nesciunt sit fuga consectetur
-              veniam quidem voluptas.
+              Портал для поверхностного ознакомления с фэнтези книгами.На этом сайте вы сможете найти аннотации и отзывы на интересующие вас книги или оставить своё мнение по поводу уже прочитанных книг.
             </p>
           </Col>
 
           <Col lg="3" md="3" className="mb-4">
             <div className="footer__quick-links">
-              <h4 className="quick__links-title">Top Categories</h4>
+              <h4 className="quick__links-title">Жанры</h4>
               <ListGroup className="mb-3">
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="#">Mobile Phones</Link>
+                  <Link to="#">Фэнтези-романтика</Link>
                 </ListGroupItem>
 
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="#">Modern Sofa</Link>
+                  <Link to="#">Фэнтези-детектив</Link>
                 </ListGroupItem>
 
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="#">Arm Chair</Link>
-                </ListGroupItem>
-
-                <ListGroupItem className="ps-0 border-0">
-                  <Link to="#">Smart Watches</Link>
+                  <Link to="#">Хоррор-фэнтези</Link>
                 </ListGroupItem>
               </ListGroup>
             </div>
@@ -48,22 +41,18 @@ const Footer = () => {
 
           <Col lg="2" md="3" className="mb-4">
             <div className="footer__quick-links">
-              <h4 className="quick__links-title">Useful Links</h4>
+              <h4 className="quick__links-title">Полезные ссылки</h4>
               <ListGroup className="mb-3">
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="/shop">Shop</Link>
+                  <Link to="/shop">Книжная полка</Link>
                 </ListGroupItem>
 
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="/cart">Cart</Link>
+                  <Link to="/login">Вход</Link>
                 </ListGroupItem>
 
                 <ListGroupItem className="ps-0 border-0">
-                  <Link to="/login">Login</Link>
-                </ListGroupItem>
-
-                <ListGroupItem className="ps-0 border-0">
-                  <Link to="#">Privacy Polity</Link>
+                  <Link to="#">Политика конфиденциальности</Link>
                 </ListGroupItem>
               </ListGroup>
             </div>
@@ -71,13 +60,13 @@ const Footer = () => {
 
           <Col lg="3" md="4">
             <div className="footer__quick-links">
-              <h4 className="quick__links-title">Contacts</h4>
+              <h4 className="quick__links-title">Контакты</h4>
               <ListGroup className="footer__contact">
                 <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-2">
                   <span>
                     <i class="ri-map-pin-line"></i>
                   </span>
-                  <p>Minsk, Belarus</p>
+                  <p>Минск, Беларусь</p>
                 </ListGroupItem>
 
                 <ListGroupItem className="ps-0 border-0 d-flex align-items-center gap-2">

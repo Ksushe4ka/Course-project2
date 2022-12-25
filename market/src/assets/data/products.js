@@ -49,14 +49,14 @@ const products = [
 
   {
     id: "02",
-    productName: "Rivet Bigelow Modern ",
+    productName: "Магия горит ",
     imgUrl: productImg02,
     category: "фэнтези-романтика",
     price: 253,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Раз в семь лет в Атланте случается Вспышка: магия свирепствует. Наемница Кейт Дэниелс должна вернуть украденные карты Стае. Но ставки слишком высоки. Ведь карты – первый шаг в противостоянии богов, каждый из которых мечтает возродиться. К тому же норка-перевертыш просит девушку об одолжении… ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Раз в семь лет в Атланте случается Вспышка: магия свирепствует. Наемница Кейт Дэниелс должна вернуть украденные карты Стае. Но ставки слишком высоки. Ведь карты – первый шаг в противостоянии богов, каждый из которых мечтает возродиться. К тому же норка-перевертыш просит девушку об одолжении… Устроить свадьбу бывшего бойфренда с другой девушкой? Найти сгинувшую в ночи мать тринадцатилетки? Отправиться внутрь гигантской черепахи, где живут пифии? Легко, если ты Кейт.",
     reviews: [
       {
         rating: 4.8,
@@ -72,14 +72,14 @@ const products = [
 
   {
     id: "03",
-    productName: "Amazon Brand Modern Sofa",
+    productName: "Цветок тьмы",
     imgUrl: productImg03,
     category: "фэнтези-романтика",
     price: 173,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "В империи Арамтеш власть принадлежит тем, кто владеет ароматами. В ночь Цветочной Луны, когда мрак окутывает землю, распускается темнейший из цветков – дахкаи. Его аромат способен подарить своему обладателю богатство, власть и могущество. Но увидеть волшебные бутоны можно лишь раз в тысячу лун.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "В империи Арамтеш власть принадлежит тем, кто владеет ароматами.В ночь Цветочной Луны, когда мрак окутывает землю, распускается темнейший из цветков – дахкаи. Его аромат способен подарить своему обладателю богатство, власть и могущество. Но увидеть волшебные бутоны можно лишь раз в тысячу лун. Именно в эту ночь пламя охватило священные сады, и среди огня обнаружили тело наследника престола, который пал жертвой древнего яда. Противоядие – лишь сказка, которой никогда не стать реальностью. Но Ракель, бедной девушке с талантом к магии ароматов, и верному телохранителю принца, Эшу, придется отыскать эликсир, способный излечить будущего правителя. Для этого они должны найти библиотеку, погребенную в песках и раскрыть тайны, созданные на заре времен. Но для спасения империи Эшу и Ракель придется противостоять не только могущественной армии, но и внутренним демонам.",
     reviews: [
       {
         rating: 4.5,
@@ -94,14 +94,14 @@ const products = [
   },
   {
     id: "04",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Ходячий замок",
     imgUrl: productImg04,
     category: "фэнтези-романтика",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Софи живет в сказочной стране, где ведьмы и русалки, семимильные сапоги и говорящие собаки - обычное дело. Поэтому, когда на нее обрушивается ужасное проклятие коварной Болотной Ведьмы",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Книги английской писательницы Дианы У.Джонс настолько ярки, что так и просятся на экран. По ее бестселлеру Ходячий замок знаменитый мультипликатор Хаяо Миядзаки (Унесенные призраками), обладатель Золотого льва - высшей награды Венецианского фестиваля, снял анимационный фильм, побивший в Японии рекорд кассовых сборов. Софи живет в сказочной стране, где ведьмы и русалки, семимильные сапоги и говорящие собаки - обычное дело. Поэтому, когда на нее обрушивается ужасное проклятие коварной Болотной Ведьмы, Софи ничего не остается, как обратиться за помощью к таинственному чародею Хоулу, обитающему в Ходячем замке. Однако, чтобы освободиться от чар, Софи предстоит разгадать немало загадок и прожить в замке у Хоула гораздо дольше, чем она рассчитывала. А для этого нужно подружиться с огненным демоном, поймать падающую звезду, подслушать пение русалок, отыскать мандрагору и многое, многое другое.",
     reviews: [
       {
         rating: 4.6,
@@ -117,14 +117,14 @@ const products = [
 
   {
     id: "05",
-    productName: "Faux Velvet Sofa",
+    productName: "Наследница молний",
     imgUrl: productImg05,
     category: "фэнтези-романтика",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Что толку в пробудившейся магии, если она не способна защитить? После того кошмара, что темный бог устроил в школе, я думала, этот мир для меня закрыт. Но у Кеймана Кроста, директора и моего опекуна, на этот счет оказалось другое мнение...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Что толку в пробудившейся магии, если она не способна защитить? После того кошмара, что темный бог устроил в школе, я думала, этот мир для меня закрыт. Но у Кеймана Кроста, директора и моего опекуна, на этот счет оказалось другое мнение. Меня не только не исключили, но и взялись охранять, как самую настоящую принцессу. Придется все же продолжить учебу. Стиснув зубы, осваивать магию дальше, чтобы назло всему выжить и отомстить за тех, кто стал жертвой обезумевшего бога. И верить в то, что сила Огня способна вернуть того, кто уже шагнул за грань...",
     reviews: [
       {
         rating: 4.6,
@@ -140,14 +140,14 @@ const products = [
 
   {
     id: "06",
-    productName: "Fllufy Sheep Sofa",
+    productName: "Шолох. Академия Буря",
     imgUrl: productImg06,
     category: "фэнтези-романтика",
     price: 163,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Ладиславу Найт ждут непростые полгода. Пытаясь убежать от себя, она отправляется на далекий остров Этерны...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Ладиславу Найт ждут непростые полгода. Пытаясь убежать от себя, она отправляется на далекий остров Этерны. Берти Голден-Халла — детектив — тоже скрывается от прошлого. И вместе с ним Лади готова нырнуть в опасное расследование. Древние тайны, магическая Академия и остров, полный загадок. Буря разразится через три, два...",
     reviews: [
       {
         rating: 4.6,
@@ -162,14 +162,14 @@ const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Лабиринт эхо: Чужак",
     imgUrl: productImg07,
     category: "фэнтези-детектив",
     price: 99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Практически сразу же после «переезда» главный герой под чутким руководством начальника Тайного Сыска сэра Джуффина Халли берется за расследование серии загадочных убийств...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "В первую книгу серии «Лабиринты Ехо» вошли семь повестей о приключениях сэра Макса и его друзей в городе Сердца Мира и за его пределами. Открывает сборник «Дебют в Ехо». Читатели узнают, кто же такой сэр Макс и как его угораздило попасть из нашей вселенной в магическую. Практически сразу же после «переезда» главный герой под чутким руководством начальника Тайного Сыска сэра Джуффина Халли берется за расследование серии загадочных убийств. Преступник появляется из зеркала и влияет на разум людей. Удастся ли начинающему магу его остановить? Также сэру Максу придется бороться с нечистью, которая питается снами. Ловить необычных воров. Выяснять причину загадочных смертей преступников, отбывающих наказание в магической тюрьме. И даже вычислять опасного маньяка, попавшего в Ехо из обычного мира…",
     reviews: [
       {
         rating: 4.6,
@@ -185,14 +185,14 @@ const products = [
 
   {
     id: "27",
-    productName: "Modern Arm Sofa",
+    productName: "Золотая империя",
     imgUrl: productImg007,
     category: "фэнтези-романтика",
     price: 173,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Дэвабад пал. Город лишился своей магии. У власти тиран, который не может сдержать собственных демонов...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Дэвабад пал. Город лишился своей магии. У власти тиран, который не может сдержать собственных демонов. Нари и Али скрываются в Каире среди обычных людей, но полны решимости вернуться и спасти своих близких. Они понимают, что для того, чтобы изменить мир, им, возможно, придется сражаться с теми, кого они когда-то любили… и встать на защиту тех, кому они когда-то причинили боль.",
     reviews: [
       {
         rating: 4.6,
@@ -208,14 +208,14 @@ const products = [
 
   {
     id: "08",
-    productName: "Baltsar Chair",
+    productName: "Джекаби",
     imgUrl: productImg08,
     category: "фэнтези-детектив",
     price: 89,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Юная искательница приключений Эбигейл Рук устраивается на должность ассистентки к молодому детективу Р. Ф. Джекаби, исследователю необъяснимых явлений. Джекаби обладает необычным даром — он может видеть фантастических существ, обитающих в городе под видом обыкновенных людей и животных...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Новая Англия, 1892 год. Юная искательница приключений Эбигейл Рук устраивается на должность ассистентки к молодому детективу Р. Ф. Джекаби, исследователю необъяснимых явлений. Джекаби обладает необычным даром — он может видеть фантастических существ, обитающих в городе под видом обыкновенных людей и животных. Талант Эбигейл — подмечать обычные, но важные детали — делает ее идеальной помощницей паранормального детектива. Первый рабочий день Эбигейл начинается с жуткого происшествия: в городе объявляется серийный убийца. Полиция считает его обыкновенным преступником, но Джекаби уверен, что это нечеловеческое создание. Мистическое расследование начинается!",
     reviews: [
       {
         rating: 4.6,
@@ -231,14 +231,14 @@ const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "Пустая могила",
     imgUrl: productImg09,
     category: "фэнтези-детектив",
     price: 112,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Узнав, что Марисса Фиттис, основательница крупнейшего в Лондоне агентства по борьбе с призраками, вовсе не умерла много лет назад, мы решили пробраться в ее усыпальницу и вскрыть гроб.Действительно, вместо покойницы в гробу лежала восковая кукла. Но кто же тогда руководит агентством?",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Узнав, что Марисса Фиттис, основательница крупнейшего в Лондоне агентства по борьбе с призраками, вовсе не умерла много лет назад, мы решили пробраться в ее усыпальницу и вскрыть гроб. Действительно, вместо покойницы в гробу лежала восковая кукла. Но кто же тогда руководит агентством? И как Мариссе удалось прожить так долго и выглядеть столь молодо? Но похоже, получить ответы на эти вопросы нам не суждено, потому что мы стали получать угрозы, а затем агентство Фиттис и вовсе прислало к нашему дому головорезов. Чтобы спастись от верной смерти, мне и моим друзьям нужно пройти по Другой Стороне, миру призраков. Отважившись на такое опасное предприятие, мы сильно рискуем, но что если нам все-таки удастся разгадать тайну Мариссы? Ведь как известно, ее агентство уже многие годы ведет эксперименты, путешествуя на Другую Сторону. Но мы и не предполагали, какая страшная правда нам откроется. Кажется, мы вплотную приблизились к разгадке Проблемы и скоро узнаем ответ на вопрос - почему призраки наводнили Англию...",
     reviews: [
       {
         rating: 4.6,
@@ -254,14 +254,14 @@ const products = [
 
   {
     id: "10",
-    productName: "Apple iPhone 12 Pro",
+    productName: "От плоти и крови",
     imgUrl: productImg13,
     category: "фэнтези-детектив",
     price: 799,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Она — Фэллон Свифт. Дочь Туат Де Данан. Она принадлежит свету и мечу, лесам и болотам, равнинам и холмам, городам и деревням. Она — все, кто был до нее и все, кто придет позже...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Она — Фэллон Свифт. Дочь Туат Де Данан. Она принадлежит свету и мечу, лесам и болотам, равнинам и холмам, городам и деревням. Она — все, кто был до нее и все, кто придет позже. Она — Избранная. Но пока Фэллон только тринадцать лет, и она едва ли знает мир своих родителей — мир, населенный миллиардами людей, мир без магии, мир, в котором города не лежат в руинах. Зато ей прекрасно известно, сколь опасен тот мир, который привычен ей самой — мир, в котором можно встретить фей, эльфов и оборотней, мир, в котором рыщут банды мародеров и религиозные фанатики. На таких, как Фэллон, обладающих даром, ведется охота, и все ближе время, когда истинную природу девушки уже невозможно будет скрывать. Когда Избранной придется принять меч и щит и вступить в битву, предначертанную века назад. Ведь пока Фэллон не станет той, кем была рождена, этот мир не обретет целостность.",
     reviews: [
       {
         rating: 4.8,
@@ -276,14 +276,14 @@ const products = [
   },
   {
     id: "25",
-    productName: "Sakarias Armchair",
+    productName: "Тигана",
     imgUrl: productImg10,
     category: "фэнтези-детектив",
     price: 99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Двадцать лет назад два могущественных колдуна, Альберико Барбадиорский и Брандин Игратский, вторглись во главе армий на полуостров Ладонь и поделили завоёванные земли между собой...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Двадцать лет назад два могущественных колдуна, Альберико Барбадиорский и Брандин Игратский, вторглись во главе армий на полуостров Ладонь и поделили завоёванные земли между собой. Ныне во владениях Альберико царит кровавая тирания, но Брандин милосерден к новым подданным. Ко всем, кроме жителей страны Тигана: в сражении за неё погиб любимый сын Брандина, и месть короля-колдуна оказалась страшна. Дворцы и храмы Тиганы были разрушены, скульптуры - разбиты, книги и летописи - сожжены. Могущественное заклятие заставило людей забыть само её название. Когда умрёт последний, кто был в ней рождён, даже память о Тигане исчезнет из мира. Однако остались те, кто жаждет спасти свою страну от вечного забвения. Кто готов убить Брандина, ведь его смерть разрушит чары. И то, что два правителя-колдуна готовятся развязать новую кровопролитную войну, на сей раз - между собой, как нельзя кстати вписывается в их планы…",
     reviews: [
       {
         rating: 4.6,
@@ -298,14 +298,14 @@ const products = [
   },
   {
     id: "11",
-    productName: "Apple iPhone 12 Max",
+    productName: "Танамор. Призрачный сыщик",
     imgUrl: productImg14,
     category: "фэнтези-детектив",
     price: 799,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Ирландия, 1837 год. Научный прогресс не остановить, и на смену чарам волшебника Мерлина приходит электричество...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Ирландия, 1837 год. Научный прогресс не остановить, и на смену чарам волшебника Мерлина приходит электричество. Вот только ожившие с помощью науки люди превращаются в зомби. Как же восставшим из праха ожить по-настоящему или обрести покой? Чтобы помочь им и себе, убитый, а потом воскресший при странных обстоятельствах Джонни Гленгалл отправляется на поиски затерянной среди зеленых холмов Ирландии деревушки, в которой сотни лет хранился танамор – удивительный талисман, оживляющий не только тело, но еще и душу, и разум",
     reviews: [
       {
         rating: 4.8,
@@ -321,14 +321,14 @@ const products = [
 
   {
     id: "12",
-    productName: "Realme 8",
+    productName: "Царство Проклятых",
     imgUrl: productImg15,
     category: "фэнтези-детектив",
     price: 599,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Милия продала душу дьяволу и теперь готовится стать Королевой Проклятых.Чтобы добраться до замка будущего мужа, она отправляется в путешествие по Семи Кругам Ада в компании загадочного принца Гнева и попадает в соблазнительный мир пороков...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Милия продала душу дьяволу и теперь готовится стать Королевой Проклятых.Чтобы добраться до замка будущего мужа, она отправляется в путешествие по Семи Кругам Ада в компании загадочного принца Гнева и попадает в соблазнительный мир пороков.Среди роскошных дворцов и нарядов, таинственных приглашений на вечеринки и противоречивых подсказок о том, кто на самом деле убил ее сестру-близняшку, Эмилия чувствует себя как никогда одинокой. Здесь никому нельзя доверять, даже бывшему союзнику в мире людей Гневу.Но храбрая ведьма поклялась разгадать тайну гибели Виттории и отомстить, даже если для этого придется поднять руку на самого хозяина этого мрачного места.",
     reviews: [
       {
         rating: 4.8,
@@ -344,14 +344,14 @@ const products = [
 
   {
     id: "13",
-    productName: "One Plus Nord",
+    productName: "Королева Лис",
     imgUrl: productImg16,
     category: "фэнтези-детектив",
     price: 799,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Магия — величайший грех. Так считал Могильный Алхимик, тиран из прошлого, поэтому превратил древнюю королеву магов в убийцу ее сородичей...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Магия — величайший грех. Так считал Могильный Алхимик, тиран из прошлого, поэтому превратил древнюю королеву магов в убийцу ее сородичей. Ради их спасения миры были разделены, а порталы навсегда закрыты. Айси мечтает пойти по стопам отца и стать полицейским, Эль с детства грезит о волшебстве, а Феликс не помнит большую часть своей жизни. Им предстоит познакомиться при странных обстоятельствах, открыть в себе магические способности и попасть на таинственную Нееру, где их ждет череда препятствий и проверок на прочность. Как новым друзьям выжить во враждебной среде, когда опасность нависает над головой, грозясь лишить их самого ценного дара, который они имеют, — собственной жизни",
     reviews: [
       {
         rating: 4.8,
@@ -367,14 +367,14 @@ const products = [
 
   {
     id: "14",
-    productName: "Apple iPhone 13 Pro",
+    productName: "Кровавый остров",
     imgUrl: productImg17,
     category: "хоррор-фэнтези",
     price: 899,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Таинственный монстролог доктор Уортроп и его ученик, сирота Уилл Генри, охотятся на чудовищ, распутывают загадочные истории и пытаются найти ответы на вечные вопросы, терзающие человечество. Однажды монстролог отправляется в путешествие с новым ассистентом, впервые оставив Уилла одного...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Оказавшись в водовороте странных и жутких событий, таинственный монстролог доктор Уортроп и его ученик, сирота Уилл Генри, охотятся на чудовищ, распутывают загадочные истории и пытаются найти ответы на вечные вопросы, терзающие человечество. Однажды монстролог отправляется в путешествие с новым ассистентом, впервые оставив Уилла одного, и вскоре приходит трагическое известие о том, что доктор… погиб. Но Уилл не может поверить в то, что его учителя больше нет, и отправляется на поиски правды.",
     reviews: [
       {
         rating: 4.8,
@@ -390,14 +390,14 @@ const products = [
 
   {
     id: "15",
-    productName: "Samsung Galaxy S22",
+    productName: "Зелёная миля",
     imgUrl: productImg18,
     category: "хоррор-фэнтези",
     price: 699,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Стивен Кинг приглашает читателей в жуткий мир тюремного блока смертников, откуда уходят, чтобы не вернуться, приоткрывает дверь последнего пристанища тех, кто преступил не только человеческий, но и Божий закон...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Стивен Кинг приглашает читателей в жуткий мир тюремного блока смертников, откуда уходят, чтобы не вернуться, приоткрывает дверь последнего пристанища тех, кто преступил не только человеческий, но и Божий закон. По эту сторону электрического стула нет более смертоносного местечка! Ничто из того, что вы читали раньше, не сравнится с самым дерзким из ужасных опытов Стивена Кинга - с историей, что начинается на Дороге Смерти и уходит в глубины самых чудовищных тайн человеческой души...",
     reviews: [
       {
         rating: 4.8,
@@ -413,14 +413,14 @@ const products = [
 
   {
     id: "16",
-    productName: "Rolex Watch",
+    productName: "Звонок",
     imgUrl: productImg19,
     category: "хоррор-фэнтези",
     price: 299,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Эта драматическая, полная тайн история начинается с того, что в один день и час при странных обстоятельствах умирают четверо молодых людей...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Роман японского писателя Кодзи Судзуки Звонок многим читателям известен по одноименному фильму ужасов. Эта драматическая, полная тайн история начинается с того, что в один день и час при странных обстоятельствах умирают четверо молодых людей. Дело берется расследовать журналист Асакава. Он не замечает сам, как оказывается во власти могущественной темной силы, природу которой и пытается разгадать.",
     reviews: [
       {
         rating: 4.8,
@@ -436,14 +436,14 @@ const products = [
 
   {
     id: "17",
-    productName: "Timex Easy Reader Watch",
+    productName: "Глубина",
     imgUrl: productImg20,
     category: "хоррор-фэнтези",
     price: 299,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Говорили, что этот лайнер роскошнее, чем любой из существующих кораблей. Говорили, что он непотопляем. Но «Титаник» затонул в первом же плавании, и ещё прежде, чем корабль столкнулся с айсбергом...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Говорили, что этот лайнер роскошнее, чем любой из существующих кораблей. Говорили, что он непотопляем. Но «Титаник» затонул в первом же плавании, и ещё прежде, чем корабль столкнулся с айсбергом, на борту его творилось нечто зловещее… и потустороннее. Энни Хеббли пережила гибель «Титаника». Она годами пыталась оправиться от произошедшего — не только от катастрофы. Она хотела забыть об ужасах, творившихся на борту лайнера, но прошлое невозможно стереть. На борту плавучего госпиталя «Британник» Энни придётся погрузиться в страшные воспоминания. Ведь «Британник» — близнец «Титаника», и кошмар повторится вновь",
     reviews: [
       {
         rating: 4.8,
@@ -459,14 +459,14 @@ const products = [
 
   {
     id: "18",
-    productName: "Rolex Watch",
+    productName: "Голем",
     imgUrl: productImg21,
     category: "хоррор-фэнтези",
     price: 299,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Роман отличает напряженный детективный сюжет и изрядное количество аллюзий, восходящих к Каббале, буддизму и алхимии...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Роман отличает напряженный детективный сюжет и изрядное количество аллюзий, восходящих к Каббале, буддизму и алхимии. Густав Майринк - австрийский писатель, чьи произведения сравнивали с повестями и рассказами Э. По. Будущий писатель родился в Вене в 1868 г., однако его по-настоящему родным городом стала Прага, в которой он успешно сделал финансовую карьеру, основав с племянником собственный банк. Однако мистика старого города производила на него сильное впечатление. Успешный финансист занялся изучением иудейской мистики, теософии и различных духовных учений Востока, в результате чего его даже обвиняли в использовании колдовства в банкирской практике. Писать Майринк начал довольно рано, однако самый его знаменитый роман Голем был опубликован, когда ему было уже почти пятьдесят. Благодаря Майринку история об иудейском раввине, оживляющем с помощью каббалистических заклятий глиняного монстра, стала известна во всем мире. Писатель скончался в 1932 г. неподалеку от Мюнхена в собственной вилле.",
     reviews: [
       {
         rating: 4.8,
@@ -482,14 +482,14 @@ const products = [
 
   {
     id: "19",
-    productName: "Apple Watch",
+    productName: "Кладбище домашних животных",
     imgUrl: productImg22,
     category: "хоррор-фэнтези",
     price: 399,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Луис Крид и не предполагал, чем обернется для него и его семьи переезд в новый дом...",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Луис Крид и не предполагал, чем обернется для него и его семьи переезд в новый дом. До сих пор он и слыхом не слыхивал о Вендиго - зловещем духе индейских легенд. И уж тем более не догадывался, что рядом с этим домом находится кладбище домашних животных.Однако очень скоро ему пришлось пожалеть о своем неведении...",
     reviews: [
       {
         rating: 4.8,
@@ -505,14 +505,14 @@ const products = [
 
   {
     id: "20",
-    productName: "Beat Studio Wireless",
+    productName: "Призрачный омут",
     imgUrl: productImg23,
     category: "хоррор-фэнтези",
     price: 199,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Саманта Мэзер принадлежит к проклятому роду. Призраки, духи и злой рок преследуют девушку с тех пор, как она поселилась в Салеме.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Саманта Мэзер принадлежит к проклятому роду. Призраки, духи и злой рок преследуют девушку с тех пор, как она поселилась в Салеме. В 1912 году тетя и дядя Саманты Мэзер взошли на «Титаник». Спустя сто лет после трагических событий Саманта начинает видеть сны о зловещем корабле. Чем больше девушка погружается в мир снов, тем страшнее становится опасность, которая ей грозит. Сможет ли она изменить прошлое, пока призрачный омут не затянул ее в свои глубины навсегда?",
     reviews: [
       {
         rating: 4.8,
@@ -528,14 +528,14 @@ const products = [
 
   {
     id: "22",
-    productName: "Beat EP Headphones",
+    productName: "Станция Лихо",
     imgUrl: productImg25,
     category: "хоррор-фэнтези",
     price: 199,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Каждый из нас наверняка задавался вопросом: а что будет, если заснуть в метро и уехать в депо?",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Каждый из нас наверняка задавался вопросом: а что будет, если заснуть в метро и уехать в депо? Яна обязательно узнает это, ведь однажды она окажется в другом мире Или не совсем другом, но измененном почти до неузнаваемости. Там обитает то, что угрожает самой реальности, а сам мир плотно заселен существами, о которых в нашем мире говорят с опаской и уважением. Возможно ли выбраться из этого странного мира и вернуться домой целой и не- вредимой? А если и возможно, то есть ли шанс остаться прежней?",
     reviews: [
       {
         rating: 4.8,

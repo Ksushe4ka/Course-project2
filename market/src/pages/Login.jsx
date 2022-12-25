@@ -45,7 +45,7 @@ const Login = () => {
               </Col>
             ) : (
               <Col lg="6" className="m-auto text-center">
-                <h3 className="fw-bold mb-4">Вход</h3>
+                <h3 className="fw-bold mb-4 login">Вход</h3>
                 <Form className="auth__form" onSubmit={signIn}>
                   <FormGroup className="form__group">
                     <input
