@@ -66,15 +66,15 @@ const BookDetails = () => {
 
   return (
     <Helmet title={productName}>
-      <CommonSection title={productName} />
+      <CommonSection title={productName}/>
       <section className="pt-0">
         <Container>
           <Row>
-            <Col lg="6">
-              <img src={imgUrl} alt="" />
+            <Col lg="4" className="img__ditails2">
+              <img className="img__ditails" src={imgUrl} alt="" />
             </Col>
 
-            <Col lg="6">
+            <Col lg="8">
               <div className="product__details">
                 <h2>{productName}</h2>
                 <div className="product__rating d-flex align-items-center gap-6 mb-3">
@@ -101,7 +101,7 @@ const BookDetails = () => {
                   </p>
                 </div>
 
-                <div className=" d-flex align-items-center gap-5 ">
+                <div className="janre d-flex align-items-center gap-5 ">
                   <span>Жанр: {category}</span>
                 </div>
                 <p className="mt-3">{shortDesc}</p>
@@ -123,7 +123,7 @@ const BookDetails = () => {
         <Container>
           <Row>
             <Col lg="12">
-              <div className="tab__wrapper d-flex align-items-center gap-5">
+              <div className="description tab__wrapper d-flex align-items-center gap-5">
                 <h6
                   className={`${tab === "desc" ? "active__tab" : " "}`}
                   onClick={() => setTab("desc")}
@@ -139,7 +139,7 @@ const BookDetails = () => {
               </div>
 
               {tab === "desc" ? (
-                <div className="tab__content mt-5">
+                <div className="tab__content ">
                   <p>{description}</p>
                 </div>
               ) : (
@@ -155,7 +155,7 @@ const BookDetails = () => {
                       ))}
                     </ul>
                     <div className="review__form">
-                      <h4>Опиши свои впечатления!</h4>
+                      <h4 className="review">Опиши свои впечатления!</h4>
                       <form action="" onSubmit={submitHandler}>
                         <div className="form__group ">
                           <input

@@ -79,7 +79,7 @@ const Signup = () => {
               </Col>
             ) : (
               <Col lg="6" className="m-auto text-center">
-                <h3 className="fw-bold mb-4 login">Регестрация</h3>
+                <h3 className="fw-bold mb-4 login">Регистрация</h3>
 
                 <Form className="auth__form" onSubmit={signup}>
                   <FormGroup className="form__group">
